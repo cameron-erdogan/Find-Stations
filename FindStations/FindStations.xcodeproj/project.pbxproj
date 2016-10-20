@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E1D6DBD1D9996F8004D07D8 /* StationDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1D6DBC1D9996F8004D07D8 /* StationDataManager.swift */; };
+		7E1D6DCA1D9B7CC2004D07D8 /* Station+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1D6DC61D9B7CC2004D07D8 /* Station+CoreDataProperties.swift */; };
+		7E1D6DCB1D9B7CC2004D07D8 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1D6DC71D9B7CC2004D07D8 /* Station.swift */; };
+		7E1D6DCC1D9B7CC2004D07D8 /* StationStatus+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1D6DC81D9B7CC2004D07D8 /* StationStatus+CoreDataProperties.swift */; };
+		7E1D6DCD1D9B7CC2004D07D8 /* StationStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1D6DC91D9B7CC2004D07D8 /* StationStatus.swift */; };
+		7E1D6DCF1D9C24D7004D07D8 /* boolExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1D6DCE1D9C24D7004D07D8 /* boolExtension.swift */; };
+		7E8702291DA0A9DB00F450A2 /* StationAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8702281DA0A9DB00F450A2 /* StationAnnotation.swift */; };
+		7E87022B1DA0AB9400F450A2 /* StationStatusDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E87022A1DA0AB9400F450A2 /* StationStatusDetailViewController.swift */; };
+		7EC3C3831D95AA25008E88B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC3C3821D95AA25008E88B3 /* AppDelegate.swift */; };
+		7EC3C3851D95AA25008E88B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC3C3841D95AA25008E88B3 /* ViewController.swift */; };
+		7EC3C3881D95AA25008E88B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EC3C3861D95AA25008E88B3 /* Main.storyboard */; };
+		7EC3C38B1D95AA25008E88B3 /* FindStations.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7EC3C3891D95AA25008E88B3 /* FindStations.xcdatamodeld */; };
+		7EC3C38D1D95AA25008E88B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EC3C38C1D95AA25008E88B3 /* Assets.xcassets */; };
+		7EC3C3901D95AA25008E88B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EC3C38E1D95AA25008E88B3 /* LaunchScreen.storyboard */; };
+		7EC3C3981D95BDEE008E88B3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC3C3971D95BDEE008E88B3 /* MapKit.framework */; };
+		7EC3C39B1D98AFC6008E88B3 /* FindStationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC3C39A1D98AFC6008E88B3 /* FindStationsViewController.swift */; };
+		8862E09C388C2D990895DDE1 /* Pods_FindStations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97D74BCAF492F8C4F420E37F /* Pods_FindStations.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7E1D6DBC1D9996F8004D07D8 /* StationDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationDataManager.swift; sourceTree = "<group>"; };
+		7E1D6DC61D9B7CC2004D07D8 /* Station+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Station+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7E1D6DC71D9B7CC2004D07D8 /* Station.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
+		7E1D6DC81D9B7CC2004D07D8 /* StationStatus+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "StationStatus+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7E1D6DC91D9B7CC2004D07D8 /* StationStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationStatus.swift; sourceTree = "<group>"; };
+		7E1D6DCE1D9C24D7004D07D8 /* boolExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = boolExtension.swift; sourceTree = "<group>"; };
+		7E8702281DA0A9DB00F450A2 /* StationAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationAnnotation.swift; sourceTree = "<group>"; };
+		7E87022A1DA0AB9400F450A2 /* StationStatusDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationStatusDetailViewController.swift; sourceTree = "<group>"; };
+		7EC3C37F1D95AA25008E88B3 /* FindStations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindStations.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EC3C3821D95AA25008E88B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7EC3C3841D95AA25008E88B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7EC3C3871D95AA25008E88B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7EC3C38A1D95AA25008E88B3 /* FindStations.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FindStations.xcdatamodel; sourceTree = "<group>"; };
+		7EC3C38C1D95AA25008E88B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7EC3C38F1D95AA25008E88B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7EC3C3911D95AA25008E88B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EC3C3971D95BDEE008E88B3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		7EC3C39A1D98AFC6008E88B3 /* FindStationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindStationsViewController.swift; sourceTree = "<group>"; };
+		97D74BCAF492F8C4F420E37F /* Pods_FindStations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindStations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97E35F040898A645526668F2 /* Pods-FindStations.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindStations.release.xcconfig"; path = "Pods/Target Support Files/Pods-FindStations/Pods-FindStations.release.xcconfig"; sourceTree = "<group>"; };
+		EF5C253155B6B7A152893DEC /* Pods-FindStations.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindStations.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindStations/Pods-FindStations.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EC3C37C1D95AA25008E88B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EC3C3981D95BDEE008E88B3 /* MapKit.framework in Frameworks */,
+				8862E09C388C2D990895DDE1 /* Pods_FindStations.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7EC3C3761D95AA25008E88B3 = {
+			isa = PBXGroup;
+			children = (
+				7EC3C3971D95BDEE008E88B3 /* MapKit.framework */,
+				7EC3C3811D95AA25008E88B3 /* FindStations */,
+				7EC3C3801D95AA25008E88B3 /* Products */,
+				8B4AFB6830154DBF67D070D8 /* Pods */,
+				F28C3CD5359D38060AB6B113 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7EC3C3801D95AA25008E88B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EC3C37F1D95AA25008E88B3 /* FindStations.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EC3C3811D95AA25008E88B3 /* FindStations */ = {
+			isa = PBXGroup;
+			children = (
+				7EC3C3821D95AA25008E88B3 /* AppDelegate.swift */,
+				7EC3C3841D95AA25008E88B3 /* ViewController.swift */,
+				7EC3C39A1D98AFC6008E88B3 /* FindStationsViewController.swift */,
+				7E1D6DBC1D9996F8004D07D8 /* StationDataManager.swift */,
+				7E1D6DCE1D9C24D7004D07D8 /* boolExtension.swift */,
+				7E8702281DA0A9DB00F450A2 /* StationAnnotation.swift */,
+				7EC3C3861D95AA25008E88B3 /* Main.storyboard */,
+				7E87022A1DA0AB9400F450A2 /* StationStatusDetailViewController.swift */,
+				7EC3C38C1D95AA25008E88B3 /* Assets.xcassets */,
+				7EC3C38E1D95AA25008E88B3 /* LaunchScreen.storyboard */,
+				7EC3C3911D95AA25008E88B3 /* Info.plist */,
+				7EC3C3891D95AA25008E88B3 /* FindStations.xcdatamodeld */,
+				7E1D6DC61D9B7CC2004D07D8 /* Station+CoreDataProperties.swift */,
+				7E1D6DC71D9B7CC2004D07D8 /* Station.swift */,
+				7E1D6DC81D9B7CC2004D07D8 /* StationStatus+CoreDataProperties.swift */,
+				7E1D6DC91D9B7CC2004D07D8 /* StationStatus.swift */,
+			);
+			path = FindStations;
+			sourceTree = "<group>";
+		};
+		8B4AFB6830154DBF67D070D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF5C253155B6B7A152893DEC /* Pods-FindStations.debug.xcconfig */,
+				97E35F040898A645526668F2 /* Pods-FindStations.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F28C3CD5359D38060AB6B113 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97D74BCAF492F8C4F420E37F /* Pods_FindStations.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7EC3C37E1D95AA25008E88B3 /* FindStations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EC3C3941D95AA25008E88B3 /* Build configuration list for PBXNativeTarget "FindStations" */;
+			buildPhases = (
+				961A153C835738BEF1F3C525 /* [CP] Check Pods Manifest.lock */,
+				7EC3C37B1D95AA25008E88B3 /* Sources */,
+				7EC3C37C1D95AA25008E88B3 /* Frameworks */,
+				7EC3C37D1D95AA25008E88B3 /* Resources */,
+				4CEE7BE4D7546EDC00F287BB /* [CP] Embed Pods Frameworks */,
+				A59BE8EDBC4852476116004A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindStations;
+			productName = FindStations;
+			productReference = 7EC3C37F1D95AA25008E88B3 /* FindStations.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EC3C3771D95AA25008E88B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Cameron Erdogan";
+				TargetAttributes = {
+					7EC3C37E1D95AA25008E88B3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = XUA4UP9P6D;
+						LastSwiftMigration = 0800;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 7EC3C37A1D95AA25008E88B3 /* Build configuration list for PBXProject "FindStations" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7EC3C3761D95AA25008E88B3;
+			productRefGroup = 7EC3C3801D95AA25008E88B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EC3C37E1D95AA25008E88B3 /* FindStations */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7EC3C37D1D95AA25008E88B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EC3C3901D95AA25008E88B3 /* LaunchScreen.storyboard in Resources */,
+				7EC3C38D1D95AA25008E88B3 /* Assets.xcassets in Resources */,
+				7EC3C3881D95AA25008E88B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4CEE7BE4D7546EDC00F287BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindStations/Pods-FindStations-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		961A153C835738BEF1F3C525 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A59BE8EDBC4852476116004A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindStations/Pods-FindStations-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EC3C37B1D95AA25008E88B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E1D6DBD1D9996F8004D07D8 /* StationDataManager.swift in Sources */,
+				7E1D6DCF1D9C24D7004D07D8 /* boolExtension.swift in Sources */,
+				7EC3C39B1D98AFC6008E88B3 /* FindStationsViewController.swift in Sources */,
+				7E1D6DCC1D9B7CC2004D07D8 /* StationStatus+CoreDataProperties.swift in Sources */,
+				7E1D6DCA1D9B7CC2004D07D8 /* Station+CoreDataProperties.swift in Sources */,
+				7EC3C3851D95AA25008E88B3 /* ViewController.swift in Sources */,
+				7E87022B1DA0AB9400F450A2 /* StationStatusDetailViewController.swift in Sources */,
+				7E8702291DA0A9DB00F450A2 /* StationAnnotation.swift in Sources */,
+				7E1D6DCD1D9B7CC2004D07D8 /* StationStatus.swift in Sources */,
+				7EC3C3831D95AA25008E88B3 /* AppDelegate.swift in Sources */,
+				7EC3C38B1D95AA25008E88B3 /* FindStations.xcdatamodeld in Sources */,
+				7E1D6DCB1D9B7CC2004D07D8 /* Station.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7EC3C3861D95AA25008E88B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EC3C3871D95AA25008E88B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7EC3C38E1D95AA25008E88B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EC3C38F1D95AA25008E88B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7EC3C3921D95AA25008E88B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7EC3C3931D95AA25008E88B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EC3C3951D95AA25008E88B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF5C253155B6B7A152893DEC /* Pods-FindStations.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = XUA4UP9P6D;
+				INFOPLIST_FILE = FindStations/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PlacesSpaceTime.FindStations;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Debug;
+		};
+		7EC3C3961D95AA25008E88B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97E35F040898A645526668F2 /* Pods-FindStations.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = XUA4UP9P6D;
+				INFOPLIST_FILE = FindStations/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PlacesSpaceTime.FindStations;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EC3C37A1D95AA25008E88B3 /* Build configuration list for PBXProject "FindStations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EC3C3921D95AA25008E88B3 /* Debug */,
+				7EC3C3931D95AA25008E88B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EC3C3941D95AA25008E88B3 /* Build configuration list for PBXNativeTarget "FindStations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EC3C3951D95AA25008E88B3 /* Debug */,
+				7EC3C3961D95AA25008E88B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7EC3C3891D95AA25008E88B3 /* FindStations.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7EC3C38A1D95AA25008E88B3 /* FindStations.xcdatamodel */,
+			);
+			currentVersion = 7EC3C38A1D95AA25008E88B3 /* FindStations.xcdatamodel */;
+			path = FindStations.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7EC3C3771D95AA25008E88B3 /* Project object */;
+}

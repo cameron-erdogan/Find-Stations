@@ -1,0 +1,6 @@
+framework module Pods_FindStations {
+  umbrella header "Pods-FindStations-umbrella.h"
+
+  export *
+  module * { export * }
+}
